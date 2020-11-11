@@ -135,15 +135,15 @@
 
 
 .artilce-list-one .first {
-    list-style-image: url(../img/Article/ul/ul1li1.svg);
+    list-style-image: url(../img/article/ul/ul1li1.svg);
 }
 
 .artilce-list-one .second {
-    list-style-image: url(../img/Article/ul/ul1li2.svg);
+    list-style-image: url(../img/article/ul/ul1li2.svg);
 }
 
 .artilce-list-one .third {
-    list-style-image: url(../img/Article/ul/ul1li3.svg);
+    list-style-image: url(../img/article/ul/ul1li3.svg);
 }
 
 .artilce-list-two li {
@@ -156,11 +156,11 @@
 
 .artilce-list-three .first,
 .artilce-list-three .second {
-    list-style-image: url(../img/Article/ul/item-ok.svg);
+    list-style-image: url(../img/article/ul/item-ok.svg);
 }
 
 .artilce-list-three .third {
-    list-style-image: url(../img/Article/ul/item-none.svg);
+    list-style-image: url(../img/article/ul/item-none.svg);
 }
 
 .article-bottom {
