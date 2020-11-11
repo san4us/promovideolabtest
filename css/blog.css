@@ -58,11 +58,11 @@
 }
 
 .blog-item-eight {
-    background: url(../img/Blog/article-bg-wave.svg) no-repeat bottom, url(../img/Blog/bg8.svg) no-repeat top;
+    background: url(../img/Blog/bg-bottom.svg) no-repeat bottom, url(../img/Blog/bg8.svg) no-repeat top;
 }
 
 .blog-item-nine {
-    background: url(../img/Blog/article-bg-wave.svg) no-repeat bottom, url(../img/Blog/bg9.svg) no-repeat top;
+    background: url(../img/Blog/bg-bottom.svg) no-repeat bottom, url(../img/Blog/bg9.svg) no-repeat top;
 }
 
 .blog-item-content {
