@@ -272,27 +272,23 @@
 }
 
 .sidebar-item-one {
-    background: url(../img/Article/sidebar/bg-bottom.svg) no-repeat bottom, url(../img/Article/sidebar/sidebar-1.svg) no-repeat top;
+    background: url(../img/article/sidebar/bg-bottom.svg) no-repeat bottom, url(../img/article/sidebar/sidebar-1.svg) no-repeat top;
 }
 
 .sidebar-item-two {
-    background: url(../img/Article/sidebar/bg-bottom.svg) no-repeat bottom,
-    url(../img/Article/sidebar/sidebar-2.svg) no-repeat top;
+    background: url(../img/article/sidebar/bg-bottom.svg) no-repeat bottom, url(../img/article/sidebar/sidebar-2.svg) no-repeat top;
 }
 
 .sidebar-item-three {
-    background: url(../img/Article/sidebar/bg-bottom.svg) no-repeat bottom,
-    url(../img/Article/sidebar/sidebar-3.svg) no-repeat top;
+    background: url(../img/article/sidebar/bg-bottom.svg) no-repeat bottom, url(../img/article/sidebar/sidebar-3.svg) no-repeat top;
 }
 
 .sidebar-item-four {
-    background: url(../img/Article/sidebar/bg-bottom.svg) no-repeat bottom,
-    url(../img/Article/sidebar/sidebar-4.svg) no-repeat top;
+    background: url(../img/article/sidebar/bg-bottom.svg) no-repeat bottom, url(../img/article/sidebar/sidebar-4.svg) no-repeat top;
 }
 
 .sidebar-item-five {
-    background: url(../img/Article/sidebar/bg-bottom.svg) no-repeat bottom,
-    url(../img/Article/sidebar/sidebar-5.svg) no-repeat top;
+    background: url(../img/article/sidebar/bg-bottom.svg) no-repeat bottom, url(../img/article/sidebar/sidebar-5.svg) no-repeat top;
 }
 
 .sidebar-item-text {
