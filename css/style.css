@@ -428,6 +428,22 @@ header .wrapper {
 	color: #041032;
 }
 
+.steps-title-header .btn {
+	position: relative;
+}
+
+.steps-title-header .btn::after {
+	position: absolute;
+	top: -25px;
+	left: -24px;
+	display: block;
+	content: "";
+	height: 110px;
+	width: 280px;
+	background-image: url(../img/steps/button-decor.svg);
+	z-index: -1;
+}
+
 .steps-list .step {
 	/* border: 1px solid red; */
 
@@ -941,6 +957,25 @@ footer .wrapper {
 	width: 1290px;
 	height: 280px;
 	background-image: url(../img/form-bg.svg);
+}
+
+.footer-form .btn {
+	position: relative;
+	z-index: 4;
+	/* margin-right: 145px; */
+
+}
+
+.footer-form .btn::after {
+	position: absolute;
+	top: -25px;
+	left: -24px;
+	display: block;
+	content: "";
+	height: 110px;
+	width: 280px;
+	background-image: url(../img/steps/button-decor.svg);
+	z-index: 1;
 }
 
 .footer-form-title {
