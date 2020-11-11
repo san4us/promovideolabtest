@@ -1,0 +1,1053 @@
+html {
+	background-color: #F4F6FB;
+}
+
+
+	
+
+.wrapper {
+	display: flex;
+	
+	max-width: 1280px;
+	margin: 0 auto;
+	
+}
+
+.btn {
+	display: inline-block;
+	
+	position: relative;
+	margin-right: 0;
+	padding: 20px 50px;
+	
+	
+	font-family: 'Ubuntu', 'Verdana', sans-serif;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-size: 15px; !important;
+	font-weight: bold;
+	color: #FFFFFF; !important;
+	
+	border-radius: 30px;
+	
+	background-color: #EF5E42;
+}
+
+.btn:hover {
+	background-color: #ef8042;
+}
+
+.btn:active {
+	background-color: #B54029;
+}
+
+.btn::before {
+	box-sizing: border-box;
+	
+	position: absolute;
+	top: 0;
+	left: 0;
+	
+	display: inline-block;
+	content: "";
+	
+	width: 100%;
+	height: 100%;
+	border: 2px solid #041032;
+	border-radius: 30px;
+	
+	
+	
+	background-color: transparent;
+
+ 	transform: rotate(-3deg);
+	
+	transition: all 0.25s;
+}
+
+.btn:hover::before {
+	transform: rotate(3deg);
+}
+
+.btn:active::before {
+	transform: rotate(0deg);
+}
+
+.btn-circle {
+    width: 60px;
+    height: 60px;
+
+    border-radius: 50%;
+
+    background-image: url(../img/arrow.svg);
+    background-position: 55% center;
+    background-repeat: no-repeat;
+}
+
+/*-------------------------- Шапка -------------------------*/
+
+header .wrapper {
+	justify-content: space-between;
+	align-items: center;
+	
+	padding-top: 30px;
+	padding-bottom: 45px;
+}
+
+.main-menu {
+	display: flex;
+	/*justify-content: space-between;*/
+	align-items: center;
+	
+	padding: 0;
+	margin: 0;
+	
+	list-style-type: none;
+}
+
+.main-menu .main-menu-link {
+	margin-right: 75px;
+	
+	text-decoration: none;
+	
+	font-family: 'Ubuntu', 'Verdana', sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+	line-height: 150%;
+	color: #4050A5;
+	
+	transition: all 0.5s;
+}
+
+.main-menu .main-menu-link:hover:not(.btn) {
+	color: #EF5E42;
+}
+
+/*--------------------------------- Конец шапки -------------------------*/
+
+
+/*------------------------------ Начало promo ------------------------------*/
+
+.promo {
+	position: relative;
+
+	/* min-height: 627px; */
+	min-height: 567px;
+
+	/* background: url(../img/promo-photo.svg) no-repeat 92% 50%,  url(../img/promo-wave.svg) no-repeat 100% 100%; */
+
+	/* background-image: url(../img/promo-photo.svg);
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: 92% 50%; */
+
+	background-image: url(../img/promo-wave.svg);
+	background-repeat: no-repeat;
+	background-position: 100% 100%;
+
+}
+
+.promo .wrapper {
+	
+}
+
+
+.promo-content {
+	display: flex;
+	flex-direction: column;
+	z-index: 2;
+}
+
+.promo-content h1 {
+	max-width: 390px;
+	margin-bottom: 0;
+	
+	font-family: 'Ubuntu', 'Verdana', sans-serif;
+	font-size: 42px;
+	letter-spacing: -0.02em;
+	color: #041032;
+}
+
+.promo-content .accent {
+	color: #EF5E42;
+}
+
+.promo-content p {
+	margin:32px 0;
+	
+	font-family: 'Roboto', 'Tahoma', sans-serif;
+	font-size: 20px;
+	line-height: 150%;
+	color: #041032;
+}
+
+
+.promo-content .buttons {
+	display: flex;
+	align-items: center;
+	
+}
+
+/*.promo-content .btn-play {*/
+/*	display: flex;*/
+/*	align-items: center;*/
+/*	height: 70px;*/
+/*	position: relative;*/
+	
+/*	margin-left: 22px;*/
+/*	padding-left: 75px;*/
+	
+/*	font-family: 'Ubuntu', 'Verdana', sans-serif;*/
+/*	font-size: 15px;*/
+/*	line-height: 150%;*/
+/*	font-weight: bold;*/
+/*	text-decoration: none;*/
+	
+/*	color: #041032;*/
+/*}*/
+
+
+/*.promo-content .btn-play::before {*/
+/*	display: inline-block;*/
+/*	position: absolute;*/
+/*	content: "";*/
+/*	left: 0;*/
+	
+/*	width: 100%;*/
+/*	height: 100%;*/
+	
+	
+/*	background-image: url(../img/btn-play.svg);*/
+/*	background-size: cover;*/
+/*	background-position: 0 center;*/
+/*	background-repeat: no-repeat;*/
+/*}*/
+
+.btn-play {
+	/* box-sizing: border-box; */
+	
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	
+	margin-left: 33px;
+	
+	font-family: 'Ubuntu', 'Verdana', sans-serif;
+	font-size: 15px;
+	line-height: 150%;
+	font-weight: bold;
+	text-decoration: none;
+	text-transform: uppercase;
+	
+	color: #041032;
+}
+
+.btn-play-img {
+	position: relative;
+	display: inline-block;
+	height: 60px;
+	width: 60px;
+	
+	margin-right: 18px;
+	
+	background-color: #88CAFF;
+	border-radius: 50%;
+	background-image: url(../img/btn-arrow.svg);
+	background-repeat: no-repeat;
+	background-position: 55% 50%;
+
+}
+
+.btn-play-img:hover {
+	background-color: #ef8042;
+}
+
+.btn-play-img:active {
+	background-color: #B54029;
+}
+
+.btn-play-img.btn-play-img-promo:hover {
+	background-color: #5cb3fa;
+}
+
+.btn-play-img.btn-play-img-promo:active {
+	background-color: #2c9ffc;
+}
+
+
+.btn-play-img::before {
+	box-sizing: border-box;
+	content: "";
+	
+	position: absolute;
+	bottom: 0;
+	left: -6px;
+	
+	display: inline-block;
+	
+	width: 72.77px;
+	height: 56.27px;
+	
+	border: 2px solid #041032;
+	border-radius: 50%;
+	
+	transform: rotate(10.67deg);
+	
+	transition: all 0.25s;
+}
+
+.btn-play-img:active::before {
+	transform: rotate(0deg);
+	
+	width: 100%;
+	height: 100%;
+	left: 0;
+}
+
+.btn-play-img:hover::before {
+	transform: rotate(-10.67deg);
+	
+}
+
+.btn-play-text {
+	color: #041032;
+	transition: all 0.25s;
+}
+
+.btn-play-text:hover {
+	color: #EF5E42;
+	
+}
+
+.promo-img {
+	position: absolute;
+	/* right: 138px; */
+	bottom: -35px;
+	/* top: 21px; */
+	left: 678px;
+
+	width: 1104px;
+	height: 606px;
+
+	background-image: url(../img/promo-photo.svg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position: 92% 50%;
+}
+
+
+/*--------------------------------- Конец promo -------------------------*/
+
+
+/* --------------------------------- comapnies ----------------------------- */
+
+.comapnies {
+	box-sizing: border-box;
+	padding-top: 60px;
+	background-color: #FFFFFF;
+	min-height: 350px;
+}
+
+.comapnies .wrapper {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.comapnies-header {
+	font-family: 'Ubuntu', 'Verdana', sans-serif;
+	font-size: 42px;
+	letter-spacing: -0.02em;
+	color: #041032;
+}
+
+.comapnies-list {
+	padding: 0;
+
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	list-style-type: none;
+}
+
+.comapnies-list li {
+	margin-right: 116px;
+}
+
+.comapnies-list li:last-child {
+	margin-right: 0;
+}
+
+/* .comapnies-link {
+	margin-right: 116px;
+} */
+
+
+
+/* --------------------------------- Конец comapnies ----------------------------- */
+
+
+/* ------------------------------- Начало steps ---------------------------------------- */
+
+.steps {
+	padding-top: 91px;
+	padding-bottom: 37.5px;
+}
+.steps .steps-list {
+	height: 736px;
+	width: 1213px;
+	margin: 0 auto;
+
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	/* align-items: center; */
+	flex-wrap: wrap;
+
+}
+
+.steps-title {
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	flex-basis: 429px;
+	text-align: center;
+	/* width: 327px; */
+	height: 295px;
+}
+
+.steps-title .steps-title-header {
+	margin-top: 0;
+
+	font-family: 'Ubuntu', 'Verdana', sans-serif;
+	font-size: 42px;
+	line-height: 150%;
+	
+	color: #041032;
+}
+
+.steps-list .step {
+	/* border: 1px solid red; */
+
+	position: relative;
+	max-width: 294px;
+	margin-left: 75px;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+
+	text-align: center;
+}
+
+.step-one {
+	background-image: url(../img/steps/step-1.svg);
+	background-position: top;
+	background-repeat: no-repeat;
+}
+
+.step-two {
+	background-image: url(../img/steps/step-2.svg);
+	background-position: top;
+	background-repeat: no-repeat;
+}
+
+.step-three {
+	background-image: url(../img/steps/step-3.svg);
+	background-position: top;
+	background-repeat: no-repeat;
+}
+
+.step-four {
+	background-image: url(../img/steps/step-4.svg);
+	background-position: top;
+	background-repeat: no-repeat;
+}
+
+.step-five {
+	background-image: url(../img/steps/step-5.svg);
+	background-position: top;
+	background-repeat: no-repeat;
+}
+
+.steps-list div:nth-child(2) {
+	margin-left: 14px;
+}
+
+
+
+.step .step-header {
+	margin: 0;
+	margin-top: 180px;
+	font-family: 'Ubuntu', 'Verdana', sans-serif;
+	font-size: 24px;
+	color: #041032;
+	
+}
+
+.step .step-text {
+	margin: 0;
+	margin-bottom: 40px;
+	font-family: 'Ubuntu', 'Verdana', sans-serif;
+	font-size: 17px;
+	line-height: 150%;
+	color: #041032;
+}
+
+
+
+/* -----------------------------------Конец steps ------------------------------------------- */
+
+/* --------------------------------------- Начало portfolio ------------------------------------ */
+
+.portfolio {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	min-height: 1055.5px;
+	background-image: url(../img/portfolio-bg.svg);
+
+}
+
+.portfolio .wrapper {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.portfolio-title {
+	margin-top: 86.5px;
+	font-family: 'Ubuntu', 'Verdana', sans-serif;
+	font-size: 42px;
+	color: white;
+}
+
+.portfolio-list {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	width: 1294px;
+}
+
+.portfolio-item {
+	box-sizing: content-box;
+	display: flex;
+	flex-direction: column-reverse;
+	width: 411px;
+	height: 357px;
+	margin-bottom: 30px;
+
+	/* background-image: url(../img/portfolio/portfolio-item-bg.svg);
+	background-position: bottom;
+	background-repeat: no-repeat;
+	background-size: contain; */
+}
+
+.portfolio-content {
+	display: flex;
+	margin-bottom: 10px;
+}
+
+.btn-play-img-portfolio {
+	background-color: #EF5E42;
+}
+
+.portfolio-description {
+	margin-left: 10px;
+}
+
+.portfolio-header {
+	margin-bottom: 10px;
+	color: #4050A5;
+	font-family: 'Ubuntu', 'Verdana', sans-serif;
+	font-size: 20px;
+}
+
+.portfolio-text {
+	margin-top: 10px;
+	color: #041032;
+	font-family: 'Roboto', 'Tahoma', sans-serif;
+	font-size: 20px;
+	line-height: 150%;
+}
+
+.portfolio-content .btn-play {
+	position: relative;
+}
+
+.portfolio-content .btn-play::after {
+	position: absolute;
+	top: 5px;
+	left: -14px;
+	display: block;
+	content: "";
+	width: 90px;
+	height: 90px;
+	border: 1px solid #EF5E42;
+	border-radius: 50%;
+	opacity: 0.33;
+	box-sizing: border-box;
+	/* background-image: url(../img/portfolio/btn-ellipse.svg); */
+	/* z-index: -1; */
+}
+
+.portfolio-item-first {
+	background: url(../img/portfolio/portfolio-item-bg.svg) no-repeat bottom, url(../img/portfolio/first.svg) no-repeat top;
+}
+
+.portfolio-item-second {
+	background: url(../img/portfolio/portfolio-item-bg.svg) no-repeat bottom, url(../img/portfolio/second.svg) no-repeat top;
+}
+
+.portfolio-item-third {
+	background: url(../img/portfolio/portfolio-item-bg.svg) no-repeat bottom, url(../img/portfolio/third.svg) no-repeat top;
+}
+
+.portfolio-item-fourth {
+	background: url(../img/portfolio/portfolio-item-bg.svg) no-repeat bottom, url(../img/portfolio/first.svg) no-repeat top;
+}
+
+.portfolio-item-fifth {
+	background: url(../img/portfolio/portfolio-item-bg.svg) no-repeat bottom, url(../img/portfolio/second.svg) no-repeat top;
+}
+
+.portfolio-item-more {
+	position: relative;
+	box-sizing: content-box;
+	background-color: white;
+	background-image: url(../img/portfolio/more-item-decor.svg);
+	background-repeat: no-repeat;
+	background-position: 50% 53%;
+	margin: 0;
+	width: 410px;
+	height: 357px;
+	border-radius: 10px;
+}
+
+.btn-play-img-more::after {
+	position: absolute;
+	top: -100px;
+	left: -166px;
+	content: "";
+	width: 410px;
+	height: 357px;
+	border: 2px solid #041032;
+	box-sizing: border-box;
+	border-radius: 10px;
+	transform: rotate(1.16deg);
+	transition: all 0.5s;
+}
+
+.btn-play-img-more:hover::after {
+	transform: rotate(0);
+}
+
+.btn-play-more {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	margin-top: 100px;
+	margin-left: 0;
+
+}
+
+.btn-play-img-more {
+	position: relative;
+	background-color: #EF5E42;
+	background-image: url(../img/portfolio/Plus.svg);
+	background-position: center;
+
+}
+
+.portfolio-more-text {
+	margin-top: 24px;
+	font-family: 'Ubuntu', 'Verdana', sans-serif;
+	font-size: 24px;
+	color: #041032;
+	text-transform: capitalize;
+}
+
+.btn-play-more:hover .portfolio-more-text {
+	color: #EF5E42;
+}
+
+
+/* --------------------------------------- Конец portfolio ------------------------------------ */
+
+
+
+/* ------------------------------------------ Начало advantages ------------------------------------ */
+
+.advantages {
+	padding: 110px 0 57px;
+}
+
+.advantages .wrapper {
+
+}
+
+.advantages-content {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	max-width: 1131px;
+	margin: 0 auto;
+}
+
+.advantages-title {
+	font-family: 'Ubuntu', 'Verdana', sans-serif;
+	font-size: 42px;
+	margin: 0;
+	margin-bottom: 65px;
+	color: #041032;
+}
+
+.advantages-list {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.advantages-item {
+	margin-bottom: 30px;
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	max-width: 283px;
+
+}
+
+.advantages-item-header {
+	margin-top: 180px;
+	font-family: 'Ubuntu', 'Verdana', sans-serif;
+	font-size: 24px;
+	color: #041032;
+
+
+}
+
+.advantages-item-text {
+	font-family: 'Ubuntu', 'Verdana', sans-serif;
+	font-size: 17px;
+	line-height: 150%;
+	text-align: center;
+	color: #041032;
+
+}
+
+.advantages-item-one {
+	background-image: url(../img/advantages/item-1.svg);
+	background-repeat: no-repeat;
+	background-position: top;
+}
+
+.advantages-item-two {
+	background-image: url(../img/advantages/item-2.svg);
+	background-repeat: no-repeat;
+	background-position: top;
+}
+
+.advantages-item-three {
+	background-image: url(../img/advantages/item-3.svg);
+	background-repeat: no-repeat;
+	background-position: top;	
+}
+
+.advantages-item-four {
+	background-image: url(../img/advantages/item-4.svg);
+	background-repeat: no-repeat;
+	background-position: top;
+}
+
+.advantages-item-five {
+	background-image: url(../img/advantages/item-5.svg);
+	background-repeat: no-repeat;
+	background-position: top;
+}
+
+.advantages-item-six {
+	background-image: url(../img/advantages/item-6.svg);
+	background-repeat: no-repeat;
+	background-position: top;
+}
+
+
+/* ------------------------------------------ Конец advantages ------------------------------------ */
+
+
+/* ---------------------------------------------- Начало reviews ---------------------------------------- */
+
+.reviews {
+	padding-bottom: 27px;
+}
+
+.reviews .wrapper {
+	display: flex;
+	flex-direction: column;
+}
+
+.reviews-title {
+	display: flex;
+	justify-content: center;
+}
+
+.reviews-title-header {
+	font-family: 'Ubuntu', 'Verdana', sans-serif;
+	font-size: 42px;
+	color: #041032;
+}
+
+.reviews-title-buttons {
+	display: flex;
+	margin-left: 20px;
+}
+
+.reviews-title-buttons .btn-play {
+	margin: 0;
+}
+
+.btn-arrow-left {
+	background-color: #EF5E42;
+	background-image: url(../img/reviews/arrow-left.svg);
+	background-position: 45% 50%;
+}
+
+.btn-arrow-right {
+	background-color: #EF5E42;
+	background-image: url(../img/reviews/arrow-right.svg);
+}
+
+.reviews-list {
+	display: flex;
+	justify-content: space-between;
+}
+
+.review {
+	padding-bottom: 36px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	max-width: 410px;
+	max-height: 585px;
+	background-color: #FFFFFF;
+	border-radius: 20px;
+}
+
+.review-visa {
+	height: 35px;
+	width: 114px;
+	margin-top: 42px;
+	margin-bottom: 44px;
+	background-image: url(../img/reviews/visa.svg);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.review-cision {
+	height: 50px;
+	width: 130px;
+	margin-top: 37px;
+	margin-bottom: 34px;
+	background-image: url(../img/reviews/cision.svg);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.review-bragshare {
+	height: 30px;
+	width: 172px;
+	margin-top: 47px;
+	margin-bottom: 43px;
+	background-image: url(../img/reviews/bragshare.svg);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.stars {
+	width: 145px;
+	height: 20px;
+	background-image: url(../img/reviews/stars.svg);
+	background-repeat: no-repeat;
+}
+
+.review-text {
+	margin: 32px 64px 32px;
+	height: 175px;
+	font-family: 'Ubuntu', 'Verdana', sans-serif;
+	font-size: 17px;
+	line-height: 150%;
+	color: #041032;
+}
+
+.review-caption {
+	margin-bottom: 27px;
+	font-family: 'Ubuntu', 'Verdana', sans-serif;
+	font-size: 15px;
+	line-height: 150%;
+	color: #999999;
+}
+
+.btn-play-review {
+	margin: 0;
+}
+
+.btn-play-img-review {
+	margin: 0 18px;
+	background-color: #EF5E42;
+}
+
+.reviews-pages {
+	margin: 28px auto 0;
+	width: 35px;
+	height: 17px;
+	background-image: url(../img/reviews/pages.svg);
+	background-repeat: no-repeat;
+	
+}
+/* ---------------------------------------------- Конец reviews ---------------------------------------- */
+
+
+/* -------------------------------------------------- Начало Footer --------------------------------------- */
+
+footer {
+	display: flex;
+	flex-direction: column;
+	background-image: url(../img/footer-bg.svg);
+	background-repeat: no-repeat;
+	background-position: bottom;
+	min-height: 596px;
+}
+
+footer .wrapper {
+	display: flex;
+	flex-direction: column;
+}
+
+.footer-top {
+
+}
+
+.footer-form {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	width: 1290px;
+	height: 280px;
+	background-image: url(../img/form-bg.svg);
+}
+
+.footer-form-title {
+
+}
+
+.footer-form-header {
+	font-family: 'Ubuntu', 'Verdana', sans-serif;
+	font-size: 42px;
+	color: #041032;
+
+}
+
+.footer-form-text {
+	font-family: 'Ubuntu', 'Verdana', sans-serif;
+	font-size: 24px;
+	line-height: 150%;
+	color: #041032;
+
+}
+
+
+
+.footer-bottom {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	padding: 85px 0;
+}
+
+.footer-bottom-left {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+
+.footer-social {
+	display: flex;
+	padding: 0;
+	list-style-type: none;
+}
+
+.footer-social li:first-child {
+	margin-right: 35px;
+} 
+
+.youtube {
+	display: block;
+	width: 78px;
+	height: 78px;
+	background-image: url(../img/footer/YT.svg);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.linkedin {
+	display: block;
+	width: 78px;
+	height: 78px;
+	background-image: url(../img/footer/IN.svg);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.facebook {
+	display: block;
+	width: 78px;
+	height: 78px;
+	background-image: url(../img/footer/FB.svg);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.footer-copy {
+	font-family: 'Ubuntu', 'Verdana', sans-serif;
+	font-size: 17px;
+	color: #F4F6FB;
+}
+
+.footer-bottom-right {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+
+.footer-email {
+	margin-bottom: 30px;
+	font-family: 'Ubuntu', 'Verdana', sans-serif;
+	font-size: 32px;
+	color: #88CAFF;
+}
+
+.footer-links {
+	display: flex;
+	justify-content: flex-end;
+}
+
+.footer-links a {
+	margin-left: 35px;
+	text-decoration: none;
+	font-family: 'Ubuntu', 'Verdana', sans-serif;
+	font-size: 17px;
+	color: #F4F6FB;
+
+	transition: all 0.5s;
+}
+
+.footer-links a:hover {
+	color: #EF5E42;
+}
